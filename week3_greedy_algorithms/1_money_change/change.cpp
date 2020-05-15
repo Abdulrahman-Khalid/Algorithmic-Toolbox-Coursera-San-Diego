@@ -1,12 +1,18 @@
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
 
-int get_change(int m) {
-  //write your code here
-  return n;
+void get_change()
+{
+  int m;
+  scanf("%d", &m);
+  int count = m / 10;
+  m %= 10;
+  count += m / 5 + m % 5;
+  printf("%d", count);
 }
 
-int main() {
-  int m;
-  std::cin >> m;
-  std::cout << get_change(m) << '\n';
+int main()
+{
+  get_change();
+  return 0;
 }

@@ -1,27 +1,33 @@
-#include <algorithm>
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
+using namespace std;
+typedef vector<int> VI;
+typedef long long ll;
 
-using std::vector;
-
-long long max_dot_product(vector<int> a, vector<int> b) {
-  // write your code here
-  long long result = 0;
-  for (size_t i = 0; i < a.size(); i++) {
-    result += ((long long) a[i]) * b[i];
+void max_dot_product()
+{
+  int n, x;
+  scanf("%d", &n);
+  VI a, c;
+  for (int i = 0; i < n; i++)
+  {
+    scanf("%d", &x);
+    a.push_back(x);
   }
-  return result;
+  for (int i = 0; i < n; i++)
+  {
+    scanf("%d", &x);
+    c.push_back(x);
+  }
+  sort(a.begin(), a.end());
+  sort(c.begin(), c.end());
+  ll sum = 0;
+  for (int i = 0; i < n; i++)
+    sum += (ll)a[i] * c[i];
+  printf("%lld", sum);
 }
 
-int main() {
-  size_t n;
-  std::cin >> n;
-  vector<int> a(n), b(n);
-  for (size_t i = 0; i < n; i++) {
-    std::cin >> a[i];
-  }
-  for (size_t i = 0; i < n; i++) {
-    std::cin >> b[i];
-  }
-  std::cout << max_dot_product(a, b) << std::endl;
+int main()
+{
+  max_dot_product();
+  return 0;
 }
