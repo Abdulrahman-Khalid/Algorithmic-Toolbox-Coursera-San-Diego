@@ -4,9 +4,9 @@
 #define pb push_back
 #define mp make_pair
 #define all(x) (x).begin(), (x).end()
+#define SZ(x) ((int)(x).size())
 using namespace std;
 typedef vector<int> VI;
-#define SZ(x) ((int)(x).size())
 
 void organizing_lottery()
 {
