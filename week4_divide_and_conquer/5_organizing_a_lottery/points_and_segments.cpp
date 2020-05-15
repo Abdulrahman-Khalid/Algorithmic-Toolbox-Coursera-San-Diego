@@ -1,38 +1,49 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
+#define fi first
+#define se second
+#define pb push_back
+#define mp make_pair
+#define all(x) (x).begin(), (x).end()
+using namespace std;
+typedef vector<int> VI;
+#define SZ(x) ((int)(x).size())
 
-using std::vector;
-
-vector<int> fast_count_segments(vector<int> starts, vector<int> ends, vector<int> points) {
-  vector<int> cnt(points.size());
-  //write your code here
-  return cnt;
+void organizing_lottery()
+{
+  int s, p, x, y;
+  scanf("%d %d", &s, &p);
+  // in alphabetics (l) < (p) < (r) so we can you chars to represent left, point and right
+  vector<pair<int, char>> segPoints; // has both segments and points
+  unordered_map<int, int> pointsMap;
+  for (size_t i = 0; i < s; ++i)
+  {
+    scanf("%d %d", &x, &y);
+    segPoints.pb(mp(x, 'l')), segPoints.pb(mp(y, 'r'));
+  }
+  VI points;
+  for (size_t i = 0; i < p; ++i)
+  {
+    scanf("%d", &x);
+    points.pb(x);
+    segPoints.pb(mp(x, 'p'));
+  }
+  sort(all(segPoints));
+  int countSegments = 0;
+  for (size_t i = 0; i < SZ(segPoints); ++i)
+  {
+    if (segPoints[i].se == 'l')
+      ++countSegments;
+    else if (segPoints[i].se == 'r')
+      --countSegments;
+    else
+      pointsMap[segPoints[i].fi] = countSegments;
+  }
+  for (size_t i = 0; i < p; ++i)
+    printf("%d ", pointsMap[points[i]]);
 }
 
-vector<int> naive_count_segments(vector<int> starts, vector<int> ends, vector<int> points) {
-  vector<int> cnt(points.size());
-  for (size_t i = 0; i < points.size(); i++) {
-    for (size_t j = 0; j < starts.size(); j++) {
-      cnt[i] += starts[j] <= points[i] && points[i] <= ends[j];
-    }
-  }
-  return cnt;
-}
-
-int main() {
-  int n, m;
-  std::cin >> n >> m;
-  vector<int> starts(n), ends(n);
-  for (size_t i = 0; i < starts.size(); i++) {
-    std::cin >> starts[i] >> ends[i];
-  }
-  vector<int> points(m);
-  for (size_t i = 0; i < points.size(); i++) {
-    std::cin >> points[i];
-  }
-  //use fast_count_segments
-  vector<int> cnt = naive_count_segments(starts, ends, points);
-  for (size_t i = 0; i < cnt.size(); i++) {
-    std::cout << cnt[i] << ' ';
-  }
+int main()
+{
+  organizing_lottery();
+  return 0;
 }

@@ -1,36 +1,42 @@
-#include <iostream>
-#include <cassert>
-#include <vector>
+#include <bits/stdc++.h>
+using namespace std;
 
-using std::vector;
-
-int binary_search(const vector<int> &a, int x) {
-  int left = 0, right = (int)a.size(); 
-  //write your code here
-}
-
-int linear_search(const vector<int> &a, int x) {
-  for (size_t i = 0; i < a.size(); ++i) {
-    if (a[i] == x) return i;
+int binary_search(const vector<int> &v, const int &x)
+{
+  int low = 0, high = v.size() - 1;
+  while (low <= high)
+  {
+    int mid = ((long long)low + high) / 2;
+    if (v[mid] == x)
+      return mid;
+    if (v[mid] > x)
+      high = mid - 1;
+    else
+      low = mid + 1;
   }
   return -1;
 }
 
-int main() {
-  int n;
-  std::cin >> n;
-  vector<int> a(n);
-  for (size_t i = 0; i < a.size(); i++) {
-    std::cin >> a[i];
+void solve()
+{
+  int n, k, x;
+  vector<int> v1, v2;
+  scanf("%d", &n);
+  for (size_t i = 0; i < n; ++i)
+  {
+    scanf("%d", &x);
+    v1.push_back(x);
   }
-  int m;
-  std::cin >> m;
-  vector<int> b(m);
-  for (int i = 0; i < m; ++i) {
-    std::cin >> b[i];
+  scanf("%d", &k);
+  for (size_t i = 0; i < k; ++i)
+  {
+    scanf("%d", &x);
+    printf("%d ", binary_search(v1, x));
   }
-  for (int i = 0; i < m; ++i) {
-    //replace with the call to binary_search when implemented
-    std::cout << linear_search(a, b[i]) << ' ';
-  }
+}
+
+int main()
+{
+  solve();
+  return 0;
 }

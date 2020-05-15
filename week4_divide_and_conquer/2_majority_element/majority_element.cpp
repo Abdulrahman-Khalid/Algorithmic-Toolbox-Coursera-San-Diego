@@ -1,22 +1,29 @@
-#include <algorithm>
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
+using namespace std;
+const int INF = 1e9;
+#define scn(x) scanf("%d", &x)
 
-using std::vector;
-
-int get_majority_element(vector<int> &a, int left, int right) {
-  if (left == right) return -1;
-  if (left + 1 == right) return a[left];
-  //write your code here
-  return -1;
+void get_majority_element()
+{
+  int n, x, ans = -INF;
+  scn(n);
+  unordered_map<int, int> m;
+  for (size_t i = 0; i < n; ++i)
+  {
+    scn(x);
+    if (m.find(x) != m.end())
+      ans = max(ans, ++m[x]);
+    else
+      m[x] = 1;
+  }
+  if ((int)(n / 2) < ans)
+    printf("%d", 1);
+  else
+    printf("%d", 0);
 }
 
-int main() {
-  int n;
-  std::cin >> n;
-  vector<int> a(n);
-  for (size_t i = 0; i < a.size(); ++i) {
-    std::cin >> a[i];
-  }
-  std::cout << (get_majority_element(a, 0, a.size()) != -1) << '\n';
+int main()
+{
+  get_majority_element();
+  return 0;
 }
