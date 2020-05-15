@@ -1,20 +1,13 @@
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
 
-int gcd_naive(int a, int b) {
-  int current_gcd = 1;
-  for (int d = 2; d <= a && d <= b; d++) {
-    if (a % d == 0 && b % d == 0) {
-      if (d > current_gcd) {
-        current_gcd = d;
-      }
-    }
-  }
-  return current_gcd;
-}
+ll gcd_naive(ll a, ll b) { return b ? gcd_naive(b, a % b) : a; }
 
-int main() {
-  int a, b;
-  std::cin >> a >> b;
-  std::cout << gcd_naive(a, b) << std::endl;
+int main()
+{
+  ll a, b;
+  scanf("%lld %lld", &a, &b);
+  printf("%lld", gcd_naive(a, b));
   return 0;
 }

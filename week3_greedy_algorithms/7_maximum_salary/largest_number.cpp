@@ -1,9 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 struct my_struct
 {
   string s, cpy;
 };
+
 bool my_sort(my_struct &a, my_struct &b)
 {
   if (a.cpy > b.cpy)
@@ -12,6 +14,7 @@ bool my_sort(my_struct &a, my_struct &b)
     return a.s + b.s > b.s + a.s;
   return false;
 }
+
 void largest_number()
 {
   int n;
