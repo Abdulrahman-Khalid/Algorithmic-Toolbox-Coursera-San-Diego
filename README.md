@@ -9,9 +9,9 @@
 
 [![GitHub issues](https://img.shields.io/github/contributors/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego)](https://github.com/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego)](https://github.com/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego)](https://github.com/Abdulrahman-Khalid/Algorithmic-Toolbox-San-Diego/network)
-[![GitHub stars](https://img.shields.io/github/stars/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego)](https://github.com/Abdulrahman-Khalid/Algorithmic-Toolbox-San-Diego/stargazers)
-[![GitHub license](https://img.shields.io/github/license/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego)](https://github.com/Abdulrahman-Khalid/Algorithmic-Toolbox-San-Diego/blob/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego)](https://github.com/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego/network)
+[![GitHub stars](https://img.shields.io/github/stars/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego)](https://github.com/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego)](https://github.com/Abdulrahman-Khalid/Algorithmic-Toolbox-Coursera-San-Diego/blob/master/LICENSE)
 
 </div>
 
