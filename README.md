@@ -34,7 +34,6 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [Sum of two Digits](/week1_programming_challenges/1_sum_of_two_digits)
   * [Maximum Pairwise Product](/week1_programming_challenges/2_maximum_pairwise_product)
 
-----------------------------------------------------------------------------------------------------------------------
 
 - [Week-2](/week2_programming_challenges)[ (pdf) ](/week2_algorithmic_warmup/week2_programming_challenges.pdf)
   * [Small Fibonacci Number](/week2_algorithmic_warmup/1_fibonacci_number)
@@ -46,7 +45,6 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [Last Digit of a Partial Sum of Fibonacci Numbers](/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again)
   * [Last Digit of the Sum of Squares of Fibonacci Numbers](/week2_algorithmic_warmup/8_last_digit_of_the_sum_of_squares_of_fibonacci_numbers)
   
-----------------------------------------------------------------------------------------------------------------------
   
 - [Week-3](/week3_programming_challenges)[ (pdf) ](/week2_programming_challenges/week2_programming_challenges.pdf)
   * [Money Change](/week3_programming_challenges/1_money_change)
@@ -56,7 +54,6 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [Maximum Number of Prizes (Different Summands)](/week3_programming_challenges/5_maximum_number_of_prizes)
   * [Maximum Salary (Largest Number)](/week3_programming_challenges/6_maximum_salary)
 
-----------------------------------------------------------------------------------------------------------------------
 
 - [Week-4](/week4_programming_challenges)[ (pdf) ](/week4_divide_and_conquer/week4_divide_and_conquer.pdf)
   * [binary search](/week4_divide_and_conquer/1_binary_search)
@@ -66,7 +63,6 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [organizing a lottery](/week4_divide_and_conquer/5_organizing_a_lottery)
   * [closest points](/week4_divide_and_conquer/6_closest_points)
   
-----------------------------------------------------------------------------------------------------------------------  
   
 - [Week-5](/week5_programming_challenges)[ (pdf) ](/week5_dynamic_programming1/week5_dynamic_programming1.pdf)
   * [money change again](/week5_dynamic_programming1/1_binary_search)
@@ -75,13 +71,16 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [longest common subsequence of two sequences](/week5_dynamic_programming1/4_number_of_inversions)
   * [longest common subsequence of three sequences](/week5_dynamic_programming1/5_organizing_a_lottery)
   
-----------------------------------------------------------------------------------------------------------------------
   
 - [Week-6](/week6_programming_challenges)[ (pdf) ](/week6_dynamic_programming2/week6_dynamic_programming1.pdf)
   * [maximum amount of gold](/week6_dynamic_programming2/1_maximum_amount_of_gold)
   * [partitioning souvenirs](/week6_dynamic_programming2/2_partitioning_souvenirs)
   * [maximum value of an arithmetic expression](/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression)
   
-----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 ## 🎉🎈 Certification 
+
+
+![Abdulrahman-Alotithmic-toolbox](https://user-images.githubusercontent.com/35617547/82099742-5fbd5e80-9708-11ea-8995-d7b4e3bcc9df.jpg)
+
 
