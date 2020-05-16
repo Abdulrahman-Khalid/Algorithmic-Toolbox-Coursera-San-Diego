@@ -72,7 +72,7 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [longest common subsequence of three sequences](/week5_dynamic_programming1/5_longest_common_subsequence_of_three_sequences)
   
   
-- [Week-6](/week6_programming_challenges)[ (pdf) ](/week6_dynamic_programming2/week6_dynamic_programming1.pdf)
+- [Week-6](/week6_programming_challenges)[ (pdf) ](/week6_dynamic_programming2/week6_dynamic_programming2.pdf)
   * [maximum amount of gold](/week6_dynamic_programming2/1_maximum_amount_of_gold)
   * [partitioning souvenirs](/week6_dynamic_programming2/2_partitioning_souvenirs)
   * [maximum value of an arithmetic expression](/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression)
