@@ -65,11 +65,11 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   
   
 - [Week-5](/week5_programming_challenges)[ (pdf) ](/week5_dynamic_programming1/week5_dynamic_programming1.pdf)
-  * [money change again](/week5_dynamic_programming1/1_binary_search)
-  * [primitive calculator](/week5_dynamic_programming1/2_majority_element)
-  * [edit distance](/week5_dynamic_programming1/3_improving_quicksort)
-  * [longest common subsequence of two sequences](/week5_dynamic_programming1/4_number_of_inversions)
-  * [longest common subsequence of three sequences](/week5_dynamic_programming1/5_organizing_a_lottery)
+  * [money change again](/week5_dynamic_programming1/1_money_change_again)
+  * [primitive calculator](/week5_dynamic_programming1/2_primitive_calculator)
+  * [edit distance](/week5_dynamic_programming1/3_edit_distance)
+  * [longest common subsequence of two sequences](/week5_dynamic_programming1/4_longest_common_subsequence_of_two_sequences)
+  * [longest common subsequence of three sequences](/week5_dynamic_programming1/5_longest_common_subsequence_of_three_sequences)
   
   
 - [Week-6](/week6_programming_challenges)[ (pdf) ](/week6_dynamic_programming2/week6_dynamic_programming1.pdf)
