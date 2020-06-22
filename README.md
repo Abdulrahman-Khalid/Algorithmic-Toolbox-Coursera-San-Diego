@@ -35,7 +35,7 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [Maximum Pairwise Product](/week1_programming_challenges/2_maximum_pairwise_product)
 
 
-- [Week-2](/week2_programming_challenges)[ (pdf) ](/week2_algorithmic_warmup/week2_programming_challenges.pdf)
+- [Week-2](/week2_algorithmic_warmup)[ (pdf) ](/week2_algorithmic_warmup/week2_programming_challenges.pdf)
   * [Small Fibonacci Number](/week2_algorithmic_warmup/1_fibonacci_number)
   * [The Last Digit of a Large Fibonacci Number](/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number)
   * [Greatest Common Divisor](/week2_algorithmic_warmup/3_greatest_common_divisor)
@@ -46,16 +46,16 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [Last Digit of the Sum of Squares of Fibonacci Numbers](/week2_algorithmic_warmup/8_last_digit_of_the_sum_of_squares_of_fibonacci_numbers)
   
   
-- [Week-3](/week3_programming_challenges)[ (pdf) ](/week2_programming_challenges/week2_programming_challenges.pdf)
-  * [Money Change](/week3_programming_challenges/1_money_change)
-  * [Maximum Value of the Loot (Fractional Knapsack)](/week3_programming_challenges/2_maximum_value_of_the_loot)
-  * [Maximum Advertisement Revenue (Maximum Dot Product)](/week3_programming_challenges/3_maximum_advertisement_revenue)
-  * [Collecting Signatures (Covering Segments by Points)](/week3_programming_challenges/4_collecting_signatures)
-  * [Maximum Number of Prizes (Different Summands)](/week3_programming_challenges/5_maximum_number_of_prizes)
-  * [Maximum Salary (Largest Number)](/week3_programming_challenges/6_maximum_salary)
+- [Week-3](/week3_greedy_algorithms)[ (pdf) ](/week2_programming_challenges/week2_programming_challenges.pdf)
+  * [Money Change](/week3_greedy_algorithms/1_money_change)
+  * [Maximum Value of the Loot (Fractional Knapsack)](/week3_greedy_algorithms/2_maximum_value_of_the_loot)
+  * [Maximum Advertisement Revenue (Maximum Dot Product)](/week3_greedy_algorithms/3_maximum_advertisement_revenue)
+  * [Collecting Signatures (Covering Segments by Points)](/week3_greedy_algorithms/4_collecting_signatures)
+  * [Maximum Number of Prizes (Different Summands)](/week3_greedy_algorithms/5_maximum_number_of_prizes)
+  * [Maximum Salary (Largest Number)](/week3_greedy_algorithms/6_maximum_salary)
 
 
-- [Week-4](/week4_programming_challenges)[ (pdf) ](/week4_divide_and_conquer/week4_divide_and_conquer.pdf)
+- [Week-4](/week4_divide_and_conquer)[ (pdf) ](/week4_divide_and_conquer/week4_divide_and_conquer.pdf)
   * [binary search](/week4_divide_and_conquer/1_binary_search)
   * [majority element](/week4_divide_and_conquer/2_majority_element)
   * [improving quicksort](/week4_divide_and_conquer/3_improving_quicksort)
@@ -64,7 +64,7 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [closest points](/week4_divide_and_conquer/6_closest_points)
   
   
-- [Week-5](/week5_programming_challenges)[ (pdf) ](/week5_dynamic_programming1/week5_dynamic_programming1.pdf)
+- [Week-5](/week5_dynamic_programming1)[ (pdf) ](/week5_dynamic_programming1/week5_dynamic_programming1.pdf)
   * [money change again](/week5_dynamic_programming1/1_money_change_again)
   * [primitive calculator](/week5_dynamic_programming1/2_primitive_calculator)
   * [edit distance](/week5_dynamic_programming1/3_edit_distance)
@@ -72,7 +72,7 @@ This Specialization is unique, because it offers two real-world projects. Advanc
   * [longest common subsequence of three sequences](/week5_dynamic_programming1/5_longest_common_subsequence_of_three_sequences)
   
   
-- [Week-6](/week6_programming_challenges)[ (pdf) ](/week6_dynamic_programming2/week6_dynamic_programming2.pdf)
+- [Week-6](/week6_dynamic_programming2)[ (pdf) ](/week6_dynamic_programming2/week6_dynamic_programming2.pdf)
   * [maximum amount of gold](/week6_dynamic_programming2/1_maximum_amount_of_gold)
   * [partitioning souvenirs](/week6_dynamic_programming2/2_partitioning_souvenirs)
   * [maximum value of an arithmetic expression](/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression)
