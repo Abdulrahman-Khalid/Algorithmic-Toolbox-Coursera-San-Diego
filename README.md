@@ -21,7 +21,7 @@ This repository will contain my work from the [Data Structures and Algorithms Sp
 which created by UC San Diego and delivered through Coursera. I will be implementing solutions in C++ with final grade 100% 🎉🎈
 -----------------------------------------------------------------------------------------------------------------------
 
-## About This Specialization
+## About This Specializationweek4_divide_and_conquer
 
 The Specialization covers algorithmic techniques for solving problems arising in computer science applications. It is a mix of theory and practice: you will not only design algorithms and estimate their complexity, but you will get a deeper understanding of algorithms by implementing them in the programming language of your choice (C, C++, C#, Haskell, Java, JavaScript, Python2, Python3, Ruby, and Scala).
 
@@ -49,10 +49,11 @@ This Specialization is unique, because it offers two real-world projects. Advanc
 - [Week-3](/week3_greedy_algorithms)[ (pdf) ](/week2_programming_challenges/week2_programming_challenges.pdf)
   * [Money Change](/week3_greedy_algorithms/1_money_change)
   * [Maximum Value of the Loot (Fractional Knapsack)](/week3_greedy_algorithms/2_maximum_value_of_the_loot)
-  * [Maximum Advertisement Revenue (Maximum Dot Product)](/week3_greedy_algorithms/3_maximum_advertisement_revenue)
-  * [Collecting Signatures (Covering Segments by Points)](/week3_greedy_algorithms/4_collecting_signatures)
-  * [Maximum Number of Prizes (Different Summands)](/week3_greedy_algorithms/5_maximum_number_of_prizes)
-  * [Maximum Salary (Largest Number)](/week3_greedy_algorithms/6_maximum_salary)
+  * [Car Fueling](/week3_greedy_algorithms/3_car_fueling)
+  * [Maximum Advertisement Revenue (Maximum Dot Product)](/week3_greedy_algorithms/4_maximum_advertisement_revenue)
+  * [Collecting Signatures (Covering Segments by Points)](/week3_greedy_algorithms/5_collecting_signatures)
+  * [Maximum Number of Prizes (Different Summands)](/week3_greedy_algorithms/6_maximum_number_of_prizes)
+  * [Maximum Salary (Largest Number)](/week3_greedy_algorithms/7_maximum_salary)
 
 
 - [Week-4](/week4_divide_and_conquer)[ (pdf) ](/week4_divide_and_conquer/week4_divide_and_conquer.pdf)
