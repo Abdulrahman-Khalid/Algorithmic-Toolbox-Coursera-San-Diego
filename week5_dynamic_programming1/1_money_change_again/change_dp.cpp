@@ -25,6 +25,8 @@ int get_change_btm_up(int amount)
   // substitute 3 with i to get transition function
   // and add condition to make sure i(amount) - coin >=0
   // transition: dp[i] = min(dp[i-1], dp[i-3], dp[i-4]) + 1
+  // complexity: state * transition
+  // complexity: O(amount*num of coins)
   dp[0] = 0;
   for (int i = 1; i <= amount; i++)
   {
